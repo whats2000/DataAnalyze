@@ -104,8 +104,10 @@ for (col in names(data)) {
                                                Min = summary_var[[1]],
                                                Q1 = summary_var[[2]],
                                                Median = summary_var[[3]],
-                                               Q3 = summary_var[[4]],
-                                               Max = summary_var[[5]]))
+                                               Q3 = summary_var[[5]],
+                                               Max = summary_var[[6]]))
   }
 }
 summary_df
+
+summary(data$GP)
